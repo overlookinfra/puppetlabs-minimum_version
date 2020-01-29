@@ -1,4 +1,2 @@
-# template_repo
-This is a template for creating repos.
-
-It contains a boilerplate Apache-2.0 license, an empty CODEOWNERS file, etc.
+# puppetlabs-minimum_version
+This module is for use specifically with Puppet Enterprise, as it depends on the Package Manager capability in PE to inventory the currently installed versions of software packages.
