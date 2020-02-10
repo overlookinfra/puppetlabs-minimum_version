@@ -2,7 +2,7 @@ require 'spec_helper'
 
 if Puppet::Util::Package.versioncmp(Puppet.version, '7.0.0') < 0
   describe 'minimum_version' do
-    #let(:facts) { { operatingsystem: 'RedHat', operatingsystemmajrelease: '7' } }
+    let(:facts) { { operatingsystem: 'RedHat', operatingsystemmajrelease: '7' } }
     let(:pre_condition) do
       'function puppetdb_query($query) {
         return [
@@ -12,6 +12,7 @@ if Puppet::Util::Package.versioncmp(Puppet.version, '7.0.0') < 0
         ]
       }'
     end
+
     it { is_expected.not_to eq(nil) }
     it { is_expected.to run.with_params.and_raise_error(ArgumentError) }
     it { is_expected.to run.with_params(100).and_raise_error(ArgumentError) }
