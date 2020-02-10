@@ -8,6 +8,8 @@ The function will compare the currently installed package with the given minimum
 - return the installed version if the installed package is the same or newer than the minimum version
 If the optional 'installversion' parameter is set, a different version than the minimum version can be returned
 
+Note: To use this module, Package Inventory must be enabled in PE!
+
 ## Usage
 ```
 # Ensure at least version 2.7.5-77.el7_6 of python is installed
