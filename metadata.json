@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-minimum_version",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "puppetlabs",
   "summary": "A function to enable specifying a minimum version in your Package declarations",
   "license": "Apache-2.0",
