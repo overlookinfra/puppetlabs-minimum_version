@@ -4,7 +4,7 @@
   "author": "puppetlabs",
   "summary": "A function to enable specifying a minimum version in your Package declarations",
   "license": "Apache-2.0",
-  "source": "https://forge.puppetlabs.com/puppetlabs/minimum_version",
+  "source": "https://github.com/puppetlabs/puppetlabs-minimum_version",
   "project_page": "https://github.com/puppetlabs/puppetlabs-minimum_version",
   "issues_url": "https://github.com/puppetlabs/puppetlabs-minimum_version/issues",
   "dependencies": [
